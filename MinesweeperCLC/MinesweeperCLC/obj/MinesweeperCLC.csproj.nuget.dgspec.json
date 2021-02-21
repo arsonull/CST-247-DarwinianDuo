@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj": {}
+    "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj": {
+    "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj",
         "projectName": "BusinessLayer",
-        "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj",
+        "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\spart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\BusinessLayer\\obj\\",
+        "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\spart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj": {
+    "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj",
+        "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj",
         "projectName": "MinesweeperCLC",
-        "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj",
+        "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\MinesweeperCLC\\MinesweeperCLC.csproj",
         "packagesPath": "C:\\Users\\spart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\MinesweeperCLC\\obj\\",
+        "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\MinesweeperCLC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -154,11 +154,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj"
+              "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\BusinessLayer\\BusinessLayer.csproj"
               },
-              "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj"
               }
             }
           }
@@ -172,6 +172,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

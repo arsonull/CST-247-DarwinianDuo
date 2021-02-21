@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "avm82aZMIncBjN8gOqBNdYPFziPr44xBmeiej/0VaqF82SPm19hS6qDsVLr9imdh6+zi70Fx9pXGKczQPL164g==",
+  "dgSpecHash": "DqwiFw81MiY3ivP/Yj3vqRdVyIqsWcpC45T7J3VbgtUQw3TeKc6XWwUKnqEZpFitPZ5T0l8a4OtZJR4FlQJ0ow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
+  "projectFilePath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\spart\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\spart\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

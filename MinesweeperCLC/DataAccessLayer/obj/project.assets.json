@@ -4637,11 +4637,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\spart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\arsonull.github.io\\Sem4\\C#\\CLC\\MinesweeperCLC\\DataAccessLayer\\obj\\",
+      "outputPath": "C:\\Users\\spart\\Documents\\GitHub\\CST-247-DarwinianDuo\\MinesweeperCLC\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\spart\\AppData\\Roaming\\NuGet\\NuGet.Config",
