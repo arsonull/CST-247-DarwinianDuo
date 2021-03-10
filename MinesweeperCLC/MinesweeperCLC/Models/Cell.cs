@@ -4,9 +4,9 @@ using System.Text;
 
 //Author: Carson Perry
 
-namespace BusinessLayer
+namespace MinesweeperCLC.Models
 {
-    class Cell
+    public class Cell
     {
         public int Row { get; set; }
         public int Column { get; set; }
@@ -16,6 +16,8 @@ namespace BusinessLayer
         public int liveNeighbours { get; set; }
 
         public bool visited { get; set; }
+
+        public string id { get; set; }
 
         public Cell()
         {
@@ -32,6 +34,7 @@ namespace BusinessLayer
             Live = false;
             liveNeighbours = 0;
             visited = false;
+            id = r + "," + c;
         }
     }
 }

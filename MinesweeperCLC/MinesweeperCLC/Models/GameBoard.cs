@@ -1,49 +1,54 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 //Author: Carson Perry
 
-namespace BusinessLayer
+namespace MinesweeperCLC.Models
 {
-    class GameBoard
+    public class GameBoard
     {
-        public int size { get; set; }
-        public int difficulty { get; set; }
-        public int numBombs { get; set; }
-        public Cell[,] grid;
+        [BindProperty]
+        public int Size { get; set; }
+        [BindProperty]
+        public int Difficulty { get; set; }
+        [BindProperty]
+        public int NumBombs { get; set; }
+        [BindProperty]
+        public Cell[,] grid { get; }
 
         public GameBoard(int s)
         {
-            size = s;
-            numBombs = 0;
+            Size = s;
+            NumBombs = 0;
 
             //creating the grid of cells
-            grid = new Cell[size, size];
-            for (int i = 0; i < size; i++)
+            grid = new Cell[Size, Size];
+            for (int i = 0; i < Size; i++)
             {
-                for (int j = 0; j < size; j++)
+                for (int j = 0; j < Size; j++)
                 {
                     grid[i, j] = new Cell(i, j);
                 }
             }
         }
 
-        //Set cells as Live randomely based on difficulty
+        //Set cells as Live randomely based on Difficulty
         public void createBombs(int d)
         {
             Random rand = new Random();
 
-            int bombs = d * size;
+            int bombs = d * Size;
 
             for (int b = 0; b < bombs; b++)
             {
-                int x = rand.Next(size);
-                int y = rand.Next(size);
+                int x = rand.Next(Size);
+                int y = rand.Next(Size);
                 if (!grid[x, y].Live)
                 {
                     grid[x, y].Live = true;
-                    numBombs += 1;
+                    NumBombs += 1;
                 }
                 else
                 {
@@ -55,21 +60,21 @@ namespace BusinessLayer
         //Sets each cell to check how many bombs are near them within one block cardinally, or diagonally
         public void checkNeighbors2()
         {
-            for (int r = 0; r < size; r++)
+            for (int r = 0; r < Size; r++)
             {
-                for (int c = 0; c < size; c++)
+                for (int c = 0; c < Size; c++)
                 {
                     int n = 0;
-                    if (r < size - 1)
+                    if (r < Size - 1)
                     {
                         if (grid[r + 1, c].Live) { n++; }
                     }
-                    if (r < size - 1 && c < size - 1) { if (grid[r + 1, c + 1].Live) { n++; } }
-                    if (c > 0 && r < size - 1)
+                    if (r < Size - 1 && c < Size - 1) { if (grid[r + 1, c + 1].Live) { n++; } }
+                    if (c > 0 && r < Size - 1)
                     {
                         if (grid[r + 1, c - 1].Live) { n++; }
                     }
-                    if (r > 0 && c < size - 1)
+                    if (r > 0 && c < Size - 1)
                     {
                         if (grid[r - 1, c + 1].Live) { n++; }
                     }
@@ -82,7 +87,7 @@ namespace BusinessLayer
                         if (grid[r, c - 1].Live) { n++; }
                     }
                     if (r > 0 && c > 0) { if (grid[r - 1, c - 1].Live) { n++; } }
-                    if (c < size - 1) { if (grid[r, c + 1].Live) { n++; } }
+                    if (c < Size - 1) { if (grid[r, c + 1].Live) { n++; } }
                     if (n == 8 && grid[r, c].Live) { n++; }
                     grid[r, c].liveNeighbours = n;
                 }
@@ -92,7 +97,7 @@ namespace BusinessLayer
         public void floodFill(int r, int c)
         {
             if (r < 0 || c < 0) { return; }
-            if (r >= size || c >= size) { return; }
+            if (r >= Size || c >= Size) { return; }
             if (!grid[r, c].Live && grid[r, c].liveNeighbours == 0 && !grid[r, c].visited)
             {
                 grid[r, c].visited = true;

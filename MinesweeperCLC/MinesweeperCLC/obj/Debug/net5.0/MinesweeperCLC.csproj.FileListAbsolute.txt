@@ -184,3 +184,4 @@ C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperC
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\MinesweeperCLC.pdb
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\MinesweeperCLC.genruntimeconfig.cache
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\Razor\Views\Minesweeper\Index.cshtml.g.cs
+C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\Razor\Views\Shared\_ViewMinesweeper.cshtml.g.cs
