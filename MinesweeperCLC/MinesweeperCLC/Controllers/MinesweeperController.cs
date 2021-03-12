@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MinesweeperCLC.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,12 @@ namespace MinesweeperCLC.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        
+        [HttpPost]
+        public IActionResult CreateBoard()
+        {
+            int size;
         }
     }
 }
