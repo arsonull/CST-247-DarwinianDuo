@@ -9,13 +9,9 @@ namespace MinesweeperCLC.Models
     {
         public int Row { get; set; }
         public int Column { get; set; }
-
         public bool Live { get; set; }
-
         public int liveNeighbours { get; set; }
-
         public bool visited { get; set; }
-
         public string id { get; set; }
 
         public ButtonModel()

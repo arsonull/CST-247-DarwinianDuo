@@ -2,26 +2,23 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BusinessLayer;
-using DataAccessLayer;
 
 namespace MinesweeperCLC.Models
 {
     public class UserData
     {
-        DBComm userDAL = new DBComm();
+        public string Username { get; set; }
+        public string Password { get; set; }
 
-        public IEnumerable<UserInfo> GetAllUsers()
+        public UserData()
         {
-            return userDAL.GetAllUsers();
+
         }
-        public void AddUser(UserInfo user)
+
+        public UserData(string u, string p)
         {
-            userDAL.AddUser(user);
-        }
-        public void Login(UserInfo usr)
-        {
-            userDAL.LoginUser(usr);
+            Username = u;
+            Password = p;
         }
     }
 }

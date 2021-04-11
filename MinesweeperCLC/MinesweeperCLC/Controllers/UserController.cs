@@ -3,19 +3,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DataAccessLayer;
 using MinesweeperCLC.Models;
+using MinesweeperCLC.Services.Business;
 
 namespace EmployeeCrud.Controllers
 {
-    public class EmployeeController : Controller
+    public class UserController : Controller
     {
-        UserData usrDal = new UserData();
+        UserBusinessService userServ = new UserBusinessService();
         public IActionResult Index()
         {
-            List<UserInfo> usrList = new List<UserInfo>();
+            List<UserData> usrList = new List<UserData>();
 
-            usrList = usrDal.GetAllUsers().ToList();
+            usrList = userServ.getAllUsers();
             return View(usrList);
         }
 
@@ -27,11 +27,11 @@ namespace EmployeeCrud.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Register([Bind] UserInfo usr)
+        public IActionResult Register([Bind] UserData usr)
         {
             if (ModelState.IsValid)
             {
-                usrDal.AddUser(usr);
+                userServ.register(usr);
                 return RedirectToAction("Index");
             }
             return View(usr);
@@ -39,11 +39,11 @@ namespace EmployeeCrud.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Login([Bind] UserInfo usr)
+        public IActionResult Login([Bind] UserData usr)
         {
             if (ModelState.IsValid)
             {
-                usrDal.Login(usr);
+                userServ.login(usr);
                 return RedirectToAction("Index");
             }
             else

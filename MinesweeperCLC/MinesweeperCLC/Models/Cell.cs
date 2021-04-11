@@ -10,14 +10,11 @@ namespace MinesweeperCLC.Models
     {
         public int Row { get; set; }
         public int Column { get; set; }
-
         public bool Live { get; set; }
-
         public int liveNeighbours { get; set; }
-
         public bool visited { get; set; }
-
         public string id { get; set; }
+        public bool flagged { get; set; }
 
         public Cell()
         {
@@ -26,6 +23,7 @@ namespace MinesweeperCLC.Models
             Live = false;
             liveNeighbours = 0;
             visited = false;
+            flagged = false;
         }
         public Cell(int r, int c)
         {
@@ -35,6 +33,7 @@ namespace MinesweeperCLC.Models
             liveNeighbours = 0;
             visited = false;
             id = r + "," + c;
+            flagged = false;
         }
     }
 }

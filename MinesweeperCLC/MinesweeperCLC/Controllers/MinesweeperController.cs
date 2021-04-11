@@ -9,15 +9,29 @@ namespace MinesweeperCLC.Controllers
 {
     public class MinesweeperController : Controller
     {
+        private static GameBoard webBoard;
+
         public IActionResult Index()
         {
             return View();
         }
         
-        [HttpPost]
-        public IActionResult CreateBoard()
+        public IActionResult CreateBoard(int Size)
         {
-            int size;
+            GameBoard board = new GameBoard(Size);
+            board.createBombs(4);
+            board.checkNeighbors2();
+            webBoard = board;
+            return View("Game", board);
+        }
+
+        public IActionResult Click(String buttonNumber)
+        {
+            Char[] buttArr = buttonNumber.ToCharArray();
+            int row = int.Parse(buttArr[0].ToString());
+            int col = int.Parse(buttArr[2].ToString());
+            webBoard.floodFill(row, col);
+            return View("Game", webBoard);
         }
     }
 }

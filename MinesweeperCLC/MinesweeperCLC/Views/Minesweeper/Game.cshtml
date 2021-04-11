@@ -11,6 +11,7 @@
 <style>
     .game-button {
         width: 75px;
+        height: 75px;
     }
 
     .game-button-image {
@@ -36,26 +37,41 @@
 <div>
     @{
         Html.RenderPartial("~/Views/Shared/_ViewMinesweeper.cshtml");
+        string[] images = { "0.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "blank.png", "bomb.png", "flagged.png" };
     }
 </div>
 
-<form>
+<form method="post">
     <div class="button-zone">
         @for (int row = 0; row < Model.Size; row++)
         {
-            /* start a new line every five elements
-            if (bttn % 5 == 0)
+            //start a new line every five elements
+            if (row % 5 == 0)
             {
                 <div class="line-break"></div>
-            }*/
+            }
             for (int col = 0; col < Model.Size; col++)
             {
-                <button class="game-button" type="submit" value="@Model.grid[row,col].id" name="buttonNumber" asp-controller="Button">
-                    @if (Model.grid[row, col].visited)
-                    {
-                        <div class="button-label">@Model.grid[row, col].liveNeighbours</div>
-                    }
-                </button>
+                var coord = row + "," + col;
+    <button class="game-button" type="submit" value=@coord name="buttonNumber" asp-controller="Minesweeper" asp-action="Click">
+        @if (Model.grid[row, col].visited)
+        {
+            <img class="game-button-image" src="~/img/@images[Model.grid[row, col].liveNeighbours]" />
+            <div class="button-label">@Model.grid[row, col].liveNeighbours</div>
+        }
+        else
+        {
+            if (Model.grid[row, col].flagged)
+            {
+                <img class="game-button-image" src="~/img/@images[11]" />
+                <div class="button-label">Flagged</div>
+            }
+            else
+            {
+                <img class="game-button-image" src="~/img/@images[9]" />
+            }
+        }
+    </button>
             }
             <div class="line-break"></div>
         }

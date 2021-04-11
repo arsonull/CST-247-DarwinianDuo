@@ -72,8 +72,6 @@ C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperC
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
@@ -88,7 +86,6 @@ C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperC
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\System.Composition.Hosting.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\System.Composition.Runtime.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\System.Composition.TypedParts.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\System.Data.SqlClient.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -143,15 +140,6 @@ C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperC
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\BusinessLayer.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\DataAccessLayer.dll
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\BusinessLayer.pdb
-C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\bin\Debug\net5.0\DataAccessLayer.pdb
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\MinesweeperCLC.csprojAssemblyReference.cache
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\MinesweeperCLC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\MinesweeperCLC.AssemblyInfoInputs.cache
@@ -185,3 +173,4 @@ C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperC
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\MinesweeperCLC.genruntimeconfig.cache
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\Razor\Views\Minesweeper\Index.cshtml.g.cs
 C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\Razor\Views\Shared\_ViewMinesweeper.cshtml.g.cs
+C:\Users\spart\Documents\GitHub\CST-247-DarwinianDuo\MinesweeperCLC\MinesweeperCLC\obj\Debug\net5.0\Razor\Views\Minesweeper\Game.cshtml.g.cs
