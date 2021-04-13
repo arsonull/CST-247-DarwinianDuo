@@ -19,22 +19,32 @@ namespace EmployeeCrud.Controllers
             return View(usrList);
         }
 
-        [HttpGet]
+
         public IActionResult Register()
         {
             return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult Register([Bind] UserData usr)
+        //public IActionResult ProcessRegister(string Username, string Password, string FirstName, string LastName, string Sex, int Age, string State, string Email)
+        //{
+        //    UserData user = new UserData(Username, Password, FirstName, LastName, Sex, Age, State, Email, 0);
+        //    Console.Write(Username + ", " + Password);
+        //    return View("Success", user);
+        //}
+
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        public IActionResult ProcessRegister(UserData user)
         {
-            if (ModelState.IsValid)
+            if (user != null)
             {
-                userServ.register(usr);
-                return RedirectToAction("Index");
+                user = userServ.register(user);
+                if (user != null)
+                    return View("UserDataDetails", user);
+                else
+                    return View("Register");
             }
-            return View(usr);
+            return View("Register");
         }
 
         [HttpPost]

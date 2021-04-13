@@ -117,5 +117,23 @@ namespace MinesweeperCLC.Models
                 return;
             }
         }
+
+        public bool checkWin()
+        {
+            int flags = 0;
+            for (int r = 0; r < Size; r++)
+            {
+                for (int c = 0; c < Size; c++)
+                {
+                    if (!grid[r, c].visited)
+                        return false;
+                    if (grid[r, c].flagged)
+                        flags++;
+                    if (flags == NumBombs)
+                        return true;
+                }
+            }
+            return true;
+        }
     }
 }

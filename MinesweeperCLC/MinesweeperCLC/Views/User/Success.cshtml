@@ -1,0 +1,10 @@
+﻿@model MinesweeperCLC.Models.UserData
+
+<div>
+    <h3>You are Logged in!</h3>
+    <h4>Welcome, @Html.DisplayNameFor(model => model.Username)!</h4>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
